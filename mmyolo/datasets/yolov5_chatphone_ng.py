@@ -13,7 +13,7 @@ class ChatPhoneNGDataset(XMLDataset):
         'CLASSES':
             ('phone', 'head_left', 'head_straight', 'head_right'),
         # PALETTE is a list of color tuples, which is used for visualization.
-        'PALETTE': [(106, 0, 228), (119, 11, 32), (165, 42, 42)]
+        'PALETTE': [(220, 20, 60), (119, 11, 32), (0, 0, 142), (0, 0, 230)]
     }
 
     def __init__(self, **kwargs):
