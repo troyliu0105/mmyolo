@@ -6,7 +6,10 @@ from typing import List, Optional, Tuple, Union
 
 import numpy as np
 import onnxruntime
-import tensorrt as trt
+try:
+    import tensorrt as trt
+except ImportError:
+    trt = None
 import torch
 from numpy import ndarray
 from torch import Tensor
